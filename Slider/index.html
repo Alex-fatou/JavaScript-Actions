@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="./scripts/scripts.js" defer></script>
+    <title>Carousel</title>
+</head>
+
+<body>
+
+    <div class="slider displayBlock">
+        <img src="img/slide-1.png" alt="" />
+    </div>
+
+    <div class="slider displayNone">
+        <img src="img/slide-2.png" alt="" />
+    </div>
+
+    <div class="slider displayNone">
+        <img src="img/slide-3.png" alt="" />
+    </div>
+
+    <div class="slider displayNone">
+        <img src="img/slide-4.png" alt="" />
+    </div>
+
+    <div class="slider displayNone">
+        <img src="img/slide-5.png" alt="" />
+    </div>
+
+    <div class="slider displayNone">
+        <img src="img/slide-6.png" alt="" />
+    </div>
+
+    <!-- bullets -->
+    <ul>
+        <li onclick="setSlide(0)"></li>
+        <li onclick="setSlide(1)"></li>
+        <li onclick="setSlide(2)"></li>
+        <li onclick="setSlide(3)"></li>
+        <li onclick="setSlide(4)"></li>
+        <li onclick="setSlide(5)"></li>
+    </ul>
+
+    <!-- extra buttons  -->
+    <div class="controls">
+        <button onclick="setPreviousSlide()">Previous</button>
+        <button onclick="setNextSlide()">Next</button>
+        <button onclick="startLoop()">Start loop</button>
+        <button onclick="stopLoop()">Stop loop</button>
+
+        <label for="slideInterval">Set your time (ms):</label>
+        <input type="number" id="slideInterval" value="2000" min="500" step="500">
+        <button onclick="updateInterval()">Update</button>
+    </div>
+
+</body>
+
+</html>
