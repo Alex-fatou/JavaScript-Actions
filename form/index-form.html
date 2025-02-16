@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,38 +8,43 @@
   <script src="./scripts/scripts.js" defer></script>
   <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
+
   <div class="contact-form">
-    
+
     <form id="contact-form">
       <h3 class="title">Contact us</h3>
       <div class="input-container">
         <input id="username" type="text" name="name" class="input" />
         <label for="username">Username</label>
       </div>
-      <span id="min-length-username" class="error-message hidden">This username is too short. Username should be at least 5 characters long.</span>
-      <span id="max-length-username" class="error-message hidden">This username is too long. Username should be at up to 10 characters long.</span>
-      <span id="no-space-username" class="error-message hidden">This username is wrong. Username should be only one word.</span>
-        
+      <span id="min-length-username" class="error-message hidden">This username is too short. Username should be at
+        least 5 characters long.</span>
+      <span id="max-length-username" class="error-message hidden">This username is too long. Username should be at up to
+        10 characters long.</span>
+      <span id="no-space-username" class="error-message hidden">This username is wrong. Username should be only one
+        word.</span>
+
       <div class="input-container">
         <input id="email" type="email" name="email" class="input" />
         <label for="email">Email</label>
       </div>
       <span id="email-format-error" class="error-message hidden">Email must contain '@'.</span>
-      
+
       <div class="input-container">
         <input id="email-confirm" type="email" name="email-confirm" class="input" />
         <label for="email-confirm">Email Confirmation</label>
       </div>
       <span id="email-confirm-format-error" class="error-message hidden">Email must contain '@'.</span>
       <span id="email-match-error" class="error-message hidden">The emails do not match.</span>
-         
+
       <div class="input-container">
         <input id="phone" type="tel" name="phone" class="input" />
         <label for="phone">Phone</label>
       </div>
       <span id="phone-error" class="error-message hidden">Phone must start with +30 and contain only numbers.</span>
-      
+
 
       <div class="input-container">
         <input id="Address" type="text" name="Address" class="input" />
@@ -53,4 +59,5 @@
     </form>
   </div>
 </body>
+
 </html>
