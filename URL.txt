@@ -1,2 +1,0 @@
-github URL: https://github.com/Alex-fatou/JavaScript-Actions
-netlify URL: https://javascript-action.netlify.app/

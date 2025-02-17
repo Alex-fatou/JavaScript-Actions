@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-github URL: https://github.com/Alex-fatou/JavaScript-Actions
-netlify URL: https://javascript-action.netlify.app/
-=======
-
->>>>>>> 14abd7462237ee66cef337251bbc385dda81d4d5
